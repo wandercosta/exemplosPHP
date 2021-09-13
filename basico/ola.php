@@ -1,21 +1,13 @@
 <div class="titulo">Olá PHP</div>
 
 <h2>Exemplo A</h2>
-
 <?php
-
-echo "Olá";
-echo "<br>";
-echo "Mundo !";
-
+echo 'Olá ';
+echo "Mundo!";
 ?>
 
 <h2>Exemplo B</h2>
+<?= "Outra forma de me 'expressar'!" ?>
 
-
-<?= "OUTRA FORMA DE PRINTAR" ?>
-<br>
-<h2>INFORMAÇÕES PHP</h2>
-
-<?php 
+<?php
 phpinfo();

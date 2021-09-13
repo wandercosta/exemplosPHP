@@ -1,27 +1,26 @@
 <div class="titulo">Comentários PHP</div>
 
+<?php
+echo "Estou no PHP";
+// echo "Comentário";
+# echo "Comentário";
+# echo // "Comentário";
+// echo # "Comentário";
+# ?>
 
-<?php 
- echo "<h1 style='font-size:30px;'>COMENTARIOS LINHA PHP</h1>";
+<p>Depois do primeiro bloco!</p>
+<!-- 
+    <p>Comentário HTML 1</p>
+    <p>Comentário HTML 2</p>
+    <p>Comentário HTML 3</p>
+-->
 
-echo'<div style="font-size:20px;">
-// echo "COMENTARIO PHP"; <br>
-#echo "COMENTARIO PHP";   <br>
-#echo  //"COMENTARIO PHP";<br>
-//echo #"COMENTARIO PHP"; <br>
-//?></div>';?>
-
-<?php 
- echo "<h1 style='font-size:30px;'>COMENTARIOS DE BLOCO</h1>";
- echo'<div style="font-size:20px;">
+<?php
 /*
-    linha 1 blablabla <br>
-    linha 2 blablabla <br>
-    linha 3 blablabla <br>
-    linha 4 blablabla <br>
-
-    ?>  
+    Linha 1 do comentário
+    Linha 2 do comentário
+    Linha 3 do comentário
 */
-</div>';?>
+?>
 
-
+<p>Depois do segundo bloco!</p>
